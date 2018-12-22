@@ -15,8 +15,11 @@ The objective is to minimize the sum of the opening cost and the assignment cost
 题目用到的测例数据集p1到p71在Instances文件夹下
 
 ## 项目源代码
-项目源代码文件只有一个，CFLP.py
-该文件中实现了三个类LocalSearchSol、SimulatedAnnealingSol、TabuSearch
-分别使用了局部搜索、模拟退火、禁忌搜索三种算法求解该问题
+项目源代码文件只有一个，CFLP.py  
+该文件中实现了三个类LocalSearchSol、SimulatedAnnealingSol、TabuSearch  
+分别使用了局部搜索、模拟退火、禁忌搜索三种算法求解该问题  
 
-上述三个类实例化之后通过调用solve即可读入71个测例，计算出
+上述三个类实例化之后通过调用solve即可读入71个测例，计算出71个解  
+将具体的分配方案分别写入Detailed Solution Of Local Search、Detailed Solution Of Simulated Annealing、Detailed Solution Of Tabu Search三个文件夹下  
+将计算得出每个解的花销、计算用时分别存入Result Table Of Local Search、Result Table Of Simulated Annealing、Result Table Of Tabu Search三个文件中
+
